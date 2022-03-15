@@ -1,3 +1,8 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 @font-face {
     font-family: '1942';
     src: url(../fonts/1942.ttf);
@@ -5,7 +10,6 @@
 
 body{
     background-image: url(../images/background.jpg);
-    background-size: cover;
     color: white;
 
 }
@@ -22,10 +26,12 @@ header{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    padding: 1%;
 }
 
 main{
     display: flex;
+    justify-content: space-around;
     margin: 1%;
     padding: 1%;
 }
@@ -34,11 +40,10 @@ section{
     border: 1px whitesmoke solid;
     box-shadow: 10px 5px 5px red;
     background-color: rgba(255, 255, 255, 0.137);
-    width: 20%;
+    width: 90%;
+    padding: 0.5%;
     margin: 1%;
-    padding: 1%;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 #titre{
@@ -47,8 +52,16 @@ section{
 
 h2{
     font-family: 'Courier New', Courier;
+    margin-bottom: 1%;
 }
 
 ul, p{
     font-family: 'Courier New', Courier;
+    list-style: none;
+}
+
+@media all and (max-device-width: 425px){
+    main{
+        flex-direction: column;
+    }
 }
