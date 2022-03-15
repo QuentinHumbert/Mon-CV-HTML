@@ -1,0 +1,54 @@
+@font-face {
+    font-family: '1942';
+    src: url(../fonts/1942.ttf);
+}
+
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    color: white;
+
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    border: 1px whitesmoke solid;
+    box-shadow: 10px 5px 5px red;
+    background-color: rgba(255, 255, 255, 0.137);
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    margin: 1%;
+    padding: 1%;
+}
+
+section{
+    border: 1px whitesmoke solid;
+    box-shadow: 10px 5px 5px red;
+    background-color: rgba(255, 255, 255, 0.137);
+    width: 20%;
+    margin: 1%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titre{
+    font-family: '1942';
+}
+
+h2{
+    font-family: 'Courier New', Courier;
+}
+
+ul, p{
+    font-family: 'Courier New', Courier;
+}
