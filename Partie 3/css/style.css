@@ -67,17 +67,11 @@ ul, p{
     padding-top: 10px;
 }
 
-.w3cmobile{
-    opacity: 0%;
+footer{
+    display: none;
 }
 
-@media screen and (max-device-width: 768px) {
-    body{
-        background-size: auto;
-    }
-}
-
-@media screen and (max-device-width: 425px){
+@media screen and (max-width: 425px){
     header{
         width: 45%;
     }
@@ -91,7 +85,7 @@ ul, p{
         margin-top: 5%;
     }
 
-    .w3cmobile{
-        opacity: 100%;
+    footer{
+        display: block;
     }
 }
